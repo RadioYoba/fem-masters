@@ -1,0 +1,131 @@
+* {
+box-sizing: border-box;
+}
+
+.text .lang {
+  float: left;
+  width: 50%;
+  padding: 0px 10px;
+}
+
+.hat .hat-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family: "Calibri";
+  font-size: 24px;
+}
+
+.hat .hat-contract {
+  font-weight: normal;
+  margin-bottom: 30px;
+  font-family: "Calibri";
+}
+
+.adress-and-date {
+  display: inline;
+}
+
+.adress-and-date .adress {
+  float: left;
+  font-family: "Calibri";
+}
+
+.adress-and-date .date {
+  float: right;
+  font-family: "Calibri";
+}
+
+.uncommon {
+  float: left;
+  text-align: justify;
+  height: 110px;
+  font-family: "Calibri";
+}
+
+.common {
+  float: left;
+  text-align: justify;
+  margin-bottom: 15px;
+  font-family: "Calibri";
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  font-family: "Calibri";
+}
+
+
+.table th {
+  background: #c0c0c0;
+  text-align: left;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.table td {
+  border-bottom: 1px solid black;
+}
+
+.table td.empty {
+  border-bottom: none;
+  border-left: 3px solid black;
+}
+
+.table td.bold {
+  border-top: 3px solid black;
+  border-left: none;
+}
+
+.table td.amount {
+  text-align: right;
+}
+
+.table td.final {
+  font-weight: bold;
+  border: 3px solid black;
+}
+
+.table td.total {
+  text-align: right;
+  font-weight: normal;
+  padding-right: 5px;
+}
+
+.table :first-child{
+  border-left: 3px solid black;
+}
+
+.table :last-child{
+  border-right: 3px solid black;
+}
+
+.last {
+  padding: 0px 10px;
+  display: inline;
+}
+
+.last .first {
+  float: left;
+  width: 50%;
+  text-align: center;
+  font-family: "Calibri";
+}
+
+.last .second {
+  float: right;
+  width: 50%;
+  text-align: center;
+  font-family: "Calibri";
+}
+
+.down-title {
+  font-size: 20px;
+}
+
+.down-lil-title {
+  font-size: 16px;
+}
+
+

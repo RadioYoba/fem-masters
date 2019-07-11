@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  font-size: 60px;
+  font-weight: normal;
+  font-family: "Snell Roundhand";
+  text-align: center;
+  font-style: italic; 
+}
+
+.First {
+  border: 1px solid black;
+  border-top: 3px solid black;
+  border-right: none;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.Second {
+  border: 1px solid black;
+  border-top: 3px solid black;
+  border-right: none;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.pic{
+  justify-content: center;
+  display: flex;
+}
+
+.Third {
+  border: 1px solid black;
+  border-top: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.up {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.up .articles-headers {
+  font-size: 30px;
+  font-weight: normal;
+  font-family: "Snell Roundhand";
+  text-align: center;
+  font-style: italic;
+  vertical-align: top; 
+}
+
+.down {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.Fourth {
+  border: 1px solid black;
+  border-right: none;
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.three-quater {
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+  align-items: stretch;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+}
+
+.sections {
+  display: flex;
+  align-items: center;
+  height: 20%;
+}
+
+.down .articles-headers {
+  font-size: 30px;
+  font-weight: normal;
+  font-family: "Snell Roundhand";
+  text-align: center;
+  font-style: italic;
+  vertical-align: top; 
+}
+
+.section-link {
+  font-size: 30px;
+  font-style: normal;
+  text-decoration: none;
+  padding-left: 30px;
+  font-family: "Futura";
+  font-weight: bold;
+  color: #666;
+}
+
+.politics {
+  background-color: #ffeaa7;
+}
+
+.technology {
+  background-color: #81ecec; 
+}
+
+.local {
+  background-color: #55efc4;
+}
+
+.opinion {
+  background-color: #74b9ff;
+}
+
+.sports {
+  background-color: #a29bfe;
+}
+
+body {
+  padding: 10px;
+}
